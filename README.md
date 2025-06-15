@@ -14,5 +14,8 @@ A bright and playful **To-Do Planner** built using **HTML, CSS, and JavaScript**
 - 💾 All in the browser — no login or backend needed
 
 ---
+<br>
+🙋‍♀️ Author
+Made with ❤️ by Supriya Sinha
 
 
