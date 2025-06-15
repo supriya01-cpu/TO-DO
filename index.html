@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful TO-DO App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📅 Weekly To-Do Planner</h1>
+
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Enter your task..." required />
+      <input type="time" id="taskTime" required />
+      <select id="daySelect">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="taskLists"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
